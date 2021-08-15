@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    tools:context=".MainActivity10">
+
+
+    <include
+        android:id="@+id/toolbar10"
+        layout="@layout/toolbar10"
+        app:title="@string/cn" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="381dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="16dp"
+        android:background="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar10" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="207dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/hnameeg"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView59"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar10" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="182dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/phone"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView59"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="@+id/textView59"
+        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="108dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/btnc"
+        android:text="@string/Edit2"
+        app:layout_constraintStart_toStartOf="@+id/textView59"
+        app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="108dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/btnc"
+        android:text="@string/deletebtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toEndOf="@+id/button15"
+        app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="392dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="64dp"
+        android:background="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="209dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/wellawathe"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView62" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="178dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/phone"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView62"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="108dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/btnc"
+        android:text="@string/Edit2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="108dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/btnc"
+        android:text="@string/deletebtn"
+        app:layout_constraintEnd_toEndOf="@+id/textView62"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toEndOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="381dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="60dp"
+        android:background="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView62" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="221dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/kaluthara"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView65"
+        app:layout_constraintTop_toTopOf="@+id/textView65" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="178dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/phone"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView65"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="@+id/textView65"
+        app:layout_constraintTop_toBottomOf="@+id/textView66" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="108dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/btnc"
+        android:text="@string/Edit2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="108dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/btnc"
+        android:text="@string/deletebtn"
+        app:layout_constraintEnd_toEndOf="@+id/textView65"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button19"
+        app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

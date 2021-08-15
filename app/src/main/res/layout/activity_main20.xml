@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    tools:context=".MainActivity20">
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="360dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView106" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="104dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/date22"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView112"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="@+id/textView112"
+        app:layout_constraintTop_toBottomOf="@+id/textView115" />
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="254dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/note2"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView112"
+        app:layout_constraintStart_toStartOf="@+id/textView112"
+        app:layout_constraintTop_toBottomOf="@+id/textView114" />
+
+    <TextView
+        android:id="@+id/textView114"
+        android:layout_width="254dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/note1"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView112"
+        app:layout_constraintStart_toStartOf="@+id/textView112"
+        app:layout_constraintTop_toBottomOf="@+id/textView113" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="187dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/off"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView112"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/textView112"
+        app:layout_constraintTop_toTopOf="@+id/textView112" />
+
+    <TextView
+        android:id="@+id/textView106"
+        android:layout_width="360dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView91" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="104dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/date22"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView106"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="@+id/textView106"
+        app:layout_constraintTop_toBottomOf="@+id/textView110" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="254dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/note2"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView106"
+        app:layout_constraintStart_toStartOf="@+id/textView106"
+        app:layout_constraintTop_toBottomOf="@+id/textView108" />
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="254dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/note1"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView106"
+        app:layout_constraintStart_toStartOf="@+id/textView106"
+        app:layout_constraintTop_toBottomOf="@+id/textView107" />
+
+    <TextView
+        android:id="@+id/textView107"
+        android:layout_width="187dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/off"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView106"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/textView106"
+        app:layout_constraintTop_toTopOf="@+id/textView106" />
+
+    <include
+        android:id="@+id/toolbar20"
+        layout="@layout/toolbar20"
+        app:title="@string/notic" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="360dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar20" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="254dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/note2"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView91"
+        app:layout_constraintStart_toStartOf="@+id/textView91"
+        app:layout_constraintTop_toBottomOf="@+id/textView103" />
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="187dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/off"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView91"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/textView91"
+        app:layout_constraintTop_toTopOf="@+id/textView91" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="254dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/note1"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView91"
+        app:layout_constraintStart_toStartOf="@+id/textView91"
+        app:layout_constraintTop_toBottomOf="@+id/textView92" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="104dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/date22"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView91"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="@+id/textView91"
+        app:layout_constraintTop_toBottomOf="@+id/textView104" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        app:title="@string/new45"/>
+
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="319dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/Email"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fullName" />
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="319dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/Name1"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="319dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/Phone"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="319dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Phone"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="319dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/CPassword"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/Button"
+        app:backgroundTint="#1464F6"
+        app:layout_constraintBottom_toTopOf="@+id/textRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_password" />
+
+    <TextView
+        android:id="@+id/textRegister"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/textRegister"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Register"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textlink"
+        android:layout_width="74dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/textlink"
+        android:textColor="#1464F6"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textRegister" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

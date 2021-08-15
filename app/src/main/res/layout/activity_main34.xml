@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    tools:context=".MainActivity34">
+
+
+    <TextView
+        android:id="@+id/textView173"
+        android:layout_width="245dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@color/white"
+        android:text="@string/yesdo"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView169" />
+
+    <TextView
+        android:id="@+id/textView169"
+        android:layout_width="214dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/white"
+        android:text="@string/metbot"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.817"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView168" />
+
+    <include
+        android:id="@+id/toolbar34"
+        layout="@layout/toolbar34"
+        app:title="@string/msg22" />
+
+    <TextView
+        android:id="@+id/textView163"
+        android:layout_width="214dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="64dp"
+        android:background="@color/white"
+        android:text="@string/hi"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar34" />
+
+    <TextView
+        android:id="@+id/textView168"
+        android:layout_width="245dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@color/white"
+        android:text="@string/assist"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView163" />
+
+    <TextView
+        android:id="@+id/textView174"
+        android:layout_width="411dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView173" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textView174"
+        app:layout_constraintTop_toTopOf="@+id/textView174"
+        app:srcCompat="@drawable/ic_baseline_emoji_emotions_24" />
+
+    <TextView
+        android:id="@+id/textView175"
+        android:layout_width="142dp"
+        android:layout_height="36dp"
+        android:text="@string/tmsg"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="1194dp" />
+
+    <TextView
+        android:id="@+id/textView176"
+        android:layout_width="166dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tmsg"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView55"
+        app:layout_constraintTop_toTopOf="@+id/textView174" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/textView176"
+        app:layout_constraintTop_toTopOf="@+id/textView174"
+        app:srcCompat="@drawable/ic_baseline_attach_file_24" />
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView174"
+        app:layout_constraintStart_toEndOf="@+id/imageView58"
+        app:layout_constraintTop_toTopOf="@+id/textView174"
+        app:srcCompat="@drawable/ic_baseline_send_24" />
+
+    <TextView
+        android:id="@+id/textView185"
+        android:layout_width="220dp"
+        android:layout_height="33dp"
+        android:background="#00BCD4"
+        android:text="@string/blackwel"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar34" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    tools:context=".MainActivity22">
+
+    <TextView
+        android:id="@+id/textView95"
+        android:layout_width="142dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/newdate"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12" />
+
+
+    <include
+        android:id="@+id/toolbar22"
+        layout="@layout/toolbar22"
+        app:title="@string/addnotice" />
+
+    <TextView
+        android:id="@+id/textRegister"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:text="@string/register1"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="741dp" />
+
+    <TextView
+        android:id="@+id/textlink"
+        android:layout_width="83dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/link"
+        android:textColor="#1464F6"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textRegister" />
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="142dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/newtit"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar22" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/newtit"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView93" />
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="142dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/disc"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="224dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/Discription"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView94" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="118dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/btnc"
+        android:text="@string/submit"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate3" />
+
+    <EditText
+        android:id="@+id/editTextDate3"
+        android:layout_width="214dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:ems="10"
+        android:hint="@string/newdate"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView95" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="45dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toEndOf="@+id/editTextDate3"
+        app:layout_constraintTop_toBottomOf="@+id/textView95"
+        app:srcCompat="@drawable/ic_baseline_date_range_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9CFFF2"
+    tools:context=".MainActivity13">
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="327dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="327dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView74" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="162dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/WorkBooks"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView75"
+        app:layout_constraintStart_toStartOf="@+id/textView75"
+        app:layout_constraintTop_toTopOf="@+id/textView75" />
+
+    <include
+        android:id="@+id/toolbar13"
+        layout="@layout/toolbar13"
+        app:title="@string/categ" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="327dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar13" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="327dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="327dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="327dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView72" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="162dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/sticker"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView72"
+        app:layout_constraintStart_toStartOf="@+id/textView72"
+        app:layout_constraintTop_toTopOf="@+id/textView72" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="327dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView75" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="162dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/Bottle"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView70"
+        app:layout_constraintStart_toStartOf="@+id/textView70"
+        app:layout_constraintTop_toTopOf="@+id/textView70" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="162dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/bag"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView71"
+        app:layout_constraintStart_toStartOf="@+id/textView71"
+        app:layout_constraintTop_toTopOf="@+id/textView71" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="162dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/pen"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView73"
+        app:layout_constraintStart_toStartOf="@+id/textView73"
+        app:layout_constraintTop_toTopOf="@+id/textView73" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="162dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/Ebooks"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView74"
+        app:layout_constraintStart_toStartOf="@+id/textView74"
+        app:layout_constraintTop_toTopOf="@+id/textView74" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="162dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/aasc"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView77"
+        app:layout_constraintStart_toStartOf="@+id/textView77"
+        app:layout_constraintTop_toTopOf="@+id/textView77" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="327dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="162dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/story"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView76"
+        app:layout_constraintStart_toStartOf="@+id/textView76"
+        app:layout_constraintTop_toTopOf="@+id/textView76" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

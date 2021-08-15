@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9CFFF2"
+    tools:context=".MainActivity25">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName18"
+        android:layout_width="171dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/Expiry"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName17" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName17"
+        android:layout_width="173dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/ccnum"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName16" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName16"
+        android:layout_width="173dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/card"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView29" />
+
+    <include
+        android:id="@+id/toolbar25"
+        layout="@layout/toolbar25"
+        app:title="@string/payment23" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="173dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/card"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView29" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="171dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="19dp"
+        android:text="@string/ccnum"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="171dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/Expiry"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="167dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/ccv"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName19"
+        android:layout_width="173dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/ccv"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName18" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@color/btnc"
+        android:text="@string/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="757dp" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="179dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/btnc"
+        android:text="@string/confirm34"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName19" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName18"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName18"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName18"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName18"
+        app:srcCompat="@drawable/ic_baseline_date_range_24" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="351dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar25"
+        app:srcCompat="@drawable/card2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

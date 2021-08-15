@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    tools:context=".MainActivity37">
+
+    <TextView
+        android:id="@+id/textView169"
+        android:layout_width="351dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/teal_200"
+        android:text="@string/uptetime"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView168" />
+
+
+    <include
+        android:id="@+id/toolbar37"
+        layout="@layout/toolbar37"
+        app:title="@string/notific" />
+
+    <TextView
+        android:id="@+id/textView163"
+        android:layout_width="357dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/teal_200"
+        android:text="@string/newuser"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar37" />
+
+    <TextView
+        android:id="@+id/textView168"
+        android:layout_width="351dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/teal_200"
+        android:text="@string/rneworder"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView163" />
+
+    <TextView
+        android:id="@+id/textView178"
+        android:layout_width="262dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/ordernewno234"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView168"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="@+id/textView168"
+        app:layout_constraintTop_toTopOf="@+id/textView168" />
+
+    <TextView
+        android:id="@+id/textView175"
+        android:layout_width="142dp"
+        android:layout_height="36dp"
+        android:text="@string/tmsg"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="1194dp" />
+
+    <TextView
+        android:id="@+id/textView177"
+        android:layout_width="262dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/join"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView163"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView163"
+        app:layout_constraintTop_toTopOf="@+id/textView163" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="162dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/btnc"
+        android:text="@string/clean"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView169" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

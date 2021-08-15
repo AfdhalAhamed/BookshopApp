@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/drawable/ic_add.xml" value="0.199609375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.199609375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.199609375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.199609375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/drawable/ic_update.xml" value="0.199609375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout-w936dp/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_add_new_product.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_login.xml" value="0.10382513661202186" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main10.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main11.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main12.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main13.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main14.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main15.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main16.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main17.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main18.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main19.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main2.xml" value="0.176" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main20.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main21.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main22.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main23.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main24.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main25.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main26.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main27.xml" value="0.152" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main28.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main29.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main3.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main30.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main31.xml" value="0.128" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main32.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main33.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main34.xml" value="0.128" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main35.xml" value="0.1796448087431694" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main36.xml" value="0.1796448087431694" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main37.xml" value="0.1796448087431694" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main38.xml" value="0.1796448087431694" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main39.xml" value="0.1762295081967213" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main4.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main5.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main6.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main7.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main8.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/activity_main9.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar.xml" value="0.176" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar10.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar11.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar12.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar13.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar14.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar15.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar16.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar17.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar18.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar19.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar2.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar20.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar21.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar22.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar23.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar25.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar26.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar27.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar28.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar29.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar3.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar30.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar31.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar32.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar33.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar34.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar35.xml" value="0.1796448087431694" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar36.xml" value="0.1796448087431694" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar37.xml" value="0.1796448087431694" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar38.xml" value="0.1796448087431694" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar39.xml" value="0.1762295081967213" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar4.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar5.xml" value="0.197265625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar6.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar7.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar8.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/layout/toolbar9.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/menu/example_menu.xml" value="0.1625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/createInterface/app/src/main/res/menu/menu.xml" value="0.190625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
